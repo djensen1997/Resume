@@ -1,0 +1,604 @@
+<!DOCTYPE=HTML5>
+
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+
+    div {
+        font-size: 11px;
+    }
+
+    div.body {
+        display: block;
+        position: absolute;
+        width: 95%;
+        height: 98%;
+        top: 1%;
+        left: 2.5%;
+        overflow: hidden;
+    }
+
+    table {
+        display: block;
+        position: absolute;
+        font-size: 12px;
+        width: 780px;
+        left: 20px;
+        overflow: hidden;
+    }
+
+    table.header {
+        height: 85px;
+        top: 10px;
+        border-bottom-color: black;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+    }
+
+    table.objective {
+        top: 100px;
+    }
+    
+    table.education {
+        top: 125px
+    }
+
+    table.workExperience {
+        top: 185px;
+    }
+
+    table.volunteerExperience {
+        top:610px;
+    }
+
+    table.skills {
+        top:725px;
+    }
+
+    div.addr1 {
+        display: block;
+        width: 191px;
+        height: 50%;
+        text-align: left;
+    }
+
+    tbody {
+        width: 100%;
+    }
+
+    div.addr2 {
+        display: block;
+        width: 191px;
+        height: 50%;
+        text-align: right;
+    }
+
+    div.name {
+        display: block;
+        font-weight:bold;
+        width: 382px;
+        height: 50%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    div.contact_info {
+        display: block;
+        width: 382px;
+        height: 50%;
+        text-align: center;
+    }
+
+    div.date {
+        display: block;
+        width: 165px;
+        height: 14px;
+        text-align: right;
+    }
+
+    div.content {
+        display: block;
+        position: relative;
+        left: 10px;
+        width: 605px;
+        height: 14px;
+        text-align: left;
+    }
+
+    div.subcontent {
+        display: block;
+        position: relative;
+        left: 10px;
+        width: 590px;
+        height: 14px;
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    div.heading {
+        height: 15px;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    div.important {
+        position: relative;
+        height: 16px;
+        left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    div.subpoint {
+        position: relative;
+        height: 14px;
+        left: 10px;
+        font-size: 11px;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+
+    div.explaination {
+        position: relative;
+        height: 55px;
+        left: 10px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+
+    th {
+        text-align: left;
+        height: 15px;
+        font-size: 12px;
+    }
+
+    li {
+        overflow: hidden;
+        position: relative;
+        height: 15px;
+        left: 10px;
+    }
+
+    li.sub {
+        left: 20px;
+    }
+
+    div.skill {
+        position: relative;
+        height: 15px;
+        font-size: 11px;
+        font-weight: bold;
+        left: 10px;
+        width: 150px;
+    }
+
+    div.skills {
+        position: relative;
+        height: 30px;
+        width: 620px;
+        font-size: 11px;
+    }
+
+    div.portfolio {
+        position: absolute;
+        display: block;
+        top: 1350px;
+        left: 250px;
+    }
+
+    img.portfolio {
+        width: 300px;
+        height: 300px;
+    }
+</style>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <table class='header'>
+        <tr>
+            <td></td>
+            <td>
+                <div class=name>Dane Jensen</div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=addr1>
+                    1624 Hunters Tr,<br/> Centerville MN, 55038
+                </div>
+            </td>
+            <td>
+                <div class=contact_info>
+                    danej@mtu.edu<br/> (651)-261-5302
+                    <br/> github.com/djensen1997
+                </div>
+            </td>
+            <td>
+                <div class=addr2>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table id='Objective' class="objective">
+        <tr>
+            <td>
+                <!-- style="width:50px;font-weight:bold;font-size:11px;text-decoration:underline" -->
+                <div class="heading">
+                    Objective:
+                </div>
+            </td>
+            <td>
+                <!-- style="width:720px;font-size:11px;padding-left:15px;" -->
+                <div class="content" style="height:12px;">
+                    To obtain a position as a Senion Engineer working on a challenging problem using modern tools and software.
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table id='Education' class="education">
+        <tr>
+            <th>
+                <div class=heading>
+                    Education
+                </div>
+            </th>
+            <th></th>
+        </tr>
+        <tr>
+            <td style='font-weight:bold;'>
+                <div class=content>
+                    Michigan Technological University
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Started: August 2015
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class=content>
+                    Bachelors of Science, Computer Science
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Graduation: May 2018
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+    <table id='work experience' class="workExperience">
+        <tr>
+            <th>
+                <div class=heading>
+                    Work Experience
+                </div>
+            </th>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <div class=important>
+                    Software Engineer, Cyber Fraud and Abuse Detection Engineering
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Summer 2019 - Present
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Analyzed real-time data from multiple data streams to identify malicious traffic.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Built responses to combat malicious traffic in real-time.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Developed and maintained a stream processing engine capable of processing 50k events per second.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Developed and maintained analytics tools for incomming data such as an Elastcsearch cluster.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Promoted to Senior Engineer April 2021.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=important>
+                    Technology Leadership Program
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Summer 2018 - Summer 2019
+                </div>
+            </td>
+        </tr>
+        <tr style="height:55px">
+            <td>
+                <div class=explaination>
+                    Target's Technology Leadership program is a way for target to indroduct new college graduates to the world of software engineering by giving them a variety of experiences from multiple teams.  During the year long program, I was placed on 2 teams to gain knowlege and expirence and at the end of the 2nd rotation, I was allowed to choose my final destination team from a list of availible teams provided to me, or one of the teams I had been on if it had an open. 
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subpoint>
+                    Content Enrichment Pipeline
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Rotation 1
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subcontent>
+                    <li>
+                        Rebuilt Target's size chart intake and maitenance system.
+                    </li>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subcontent>
+                    <li>
+                        Developed a React web page to size charts to be built as if you were directly editing the web site.
+                    </li>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subcontent>
+                    <li>
+                        Built a springboot API in groovy to maintain the size charts and used a mongo DB as storage.
+                    </li>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subpoint>
+                   Digital Security
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Rotation 2
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subcontent>
+                    <li>
+                        Worked on a new automated account take over response engine.
+                    </li>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subcontent>
+                    <li>
+                        Developed an API in Rust to maintain records of responses made and to manage responses in flight.
+                    </li>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=subcontent>
+                    <li>
+                        Helped to establish team's internal best practices with Rust.
+                    </li>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=important>
+                    Target Software Engineering Intern
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    Summer 2017
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Worked with Target’s SOX It team to develop scripts for the SOX team to use
+                    </li>
+
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Identified and Diagnosed access deficiencies in Target’s Change Management process
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Developed using open source tools like PostgreSQL and various python modules
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table id='Volunteer Experience' class="volunteerExperience">
+        <tr>
+            <th>
+                <div class=heading>
+                    Volunteer Experience
+                </div>
+            </th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=important>
+                    FIRST Robotics Compititon Mentor
+                </div>
+            </td>
+            <td>
+                <div class=date>
+                    September 2018 - Present
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Inspired Creativity in high school students in order to solve a challenge issued by FIRST Every year.
+                    </li>
+                </div>
+            </td>
+            <td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Teach programming as a tool to solve certain challenges.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Teach agile practices to help with project managment and time managment.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=content>
+                    <li>
+                        Manage and moderate the team's discord server.
+                    </li>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table id='Technical Skills' class="skills">
+        <tr>
+            <th>
+                <div class=heading>
+                    Technical Skills
+                </div>
+            </th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class=skill>
+                    Skills:
+                </div>
+            </td>
+            <td>
+                <div class=skills>
+                    10+ Years of Programming Experience, Data Structures, GitHub, Concurrent Computing, Command Line, Agile, Kubernetes, Helm, Elasticsearch, Grafana, Prometheus
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class=skill>
+                    Languages:
+                </div>
+            </td>
+            <td>
+                <div class=skills style="height:15px;">
+                    Rust, Java, Python, Kotlin, Groovy, ReactJs, C, C++, Lua, SQL, HTML
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!--
+        Open Source, Kibana, PostgreSQL, MongoDB, Programming Languages, Microsoft Office, Intellij, VSCode, Spark
+        Timely, Actix, Springboot, Labview, Assembly
+    -->
+    <div class=portfolio>
+        <img class=portfolio src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fdjensen1997&chs=180x180&choe=UTF-8&chld=L|2'
+            alt=''>
+    </div>
+</body>
